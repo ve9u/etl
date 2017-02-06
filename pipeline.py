@@ -3,11 +3,16 @@
 
 # Created by Balraj 06/01/2017
 
-import config
+# System libs
+import copy
+
+# External Libs
 from pymongo import MongoClient
 import pymysql
-import json
-import copy
+
+# Internal libs
+import config
+
 
 # Pipeline contants
 RESET_MONGO_COLLECTIONS_ON_UPDATE = True
