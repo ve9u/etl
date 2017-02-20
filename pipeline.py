@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """This data pipeline uses movie lens database. Takes MySQL data and puts it into mongoDB"""
 
-# Created by Balraj 06/01/2017
+# Author : Balraj 06/01/2017
 
 # System libs
 import copy
@@ -14,7 +14,7 @@ import pymysql
 import config
 
 
-# Pipeline contants
+# Pipeline constants
 RESET_MONGO_COLLECTIONS_ON_UPDATE = True
 PRINT_INFO = True
 PRINT_RESULTS = True
