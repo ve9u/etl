@@ -15,9 +15,9 @@ import config
 
 
 # Pipeline constants
-RESET_MONGO_COLLECTIONS_ON_UPDATE = True
-PRINT_INFO = True
-PRINT_RESULTS = True
+RESET_MONGO_COLLECTIONS_ON_UPDATE = True # Resets the collections if a collection already exists, if false, the data is appeneded to the collection
+PRINT_INFO = True # Print options for debugging purposes
+PRINT_RESULTS = True # Print option for debugging purposes
 
 def initalise_mysql():
     """Initalises and returns a MySQL database based on config"""
