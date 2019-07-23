@@ -1,8 +1,7 @@
 The application runs on python 3.5
 
 ## About
-This is a command line application for F20BD coursework 1. 
-It takes a MySQL dataset that is provided in the coursework and transfers the data to MongoDB.
+This is a command line application, It takes a MySQL dataset that is provided in the coursework and transfers the data to MongoDB.
 
 ## Prerequisties
 
