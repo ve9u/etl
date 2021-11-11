@@ -1,8 +1,8 @@
 ## Prerequisties
 
 Make sure the following conditions are met:
-- MovieLens Database is loaded into MySQL https://grouplens.org/datasets/movielens/
 - A MySQL server is running and has database ready
+- Products table created in MYSQL server and contain some rows
 - A MongoDB server is running
 - Make sure you configure ```config.py``` with appropirate variables
 - Install the dependencies 
