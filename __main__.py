@@ -1,5 +1,6 @@
 from extract import connect_db, extract_data
 from load import connect_mongodb, load_data
+from transform import convert_decimal
 
 
 def main():
@@ -18,7 +19,7 @@ def main():
 
     for i in range(0, cur.rowcount):
         fetched_row = cur.fetchone()
-        object_id = load_data(mongodb, collection_name, fetched_row)
+        object_id = load_data(mongodb, collection_name, convert_decimal(fetched_row))
         print(object_id.acknowledged)
 
 main()
