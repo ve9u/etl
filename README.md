@@ -18,6 +18,8 @@ python3 __main__.py
 ```
 
 ## Terms
-Mysql | MongoDB
-Table | Collection
-Row   | Document
+
+|Mysql | MongoDB|
+-----------------
+| Table | Collection |
+| Row   | Document |
